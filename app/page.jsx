@@ -1,7 +1,13 @@
+import Hero from "@/components/Hero";
+import InfoBoxes from "@/components/InfoBoxes";
+
 const Homepage = () => {
-    return ( <div className="text-2xl">
-Home
-    </div> );
-}
- 
+  return (
+    <>
+      <Hero />
+      <InfoBoxes />
+    </>
+  );
+};
+
 export default Homepage;
